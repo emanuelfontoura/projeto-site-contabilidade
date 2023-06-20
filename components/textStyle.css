@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/* PARAGRAPHS AND TITLES */
+
+.paragraph{
+    font-size: 0.8888888888888889rem;
+    line-height: 0.6666666666666667rem;
+    letter-spacing: 1.5%;
+}
+
+.h1Primary{
+    font-size: 0.2857142857142857rem;
+    line-height: 0.3333333333333333rem;
+}
+
+.h2Secundary{
+    font-size: 0.3333333333333333rem;
+    line-height: 0.5rem;
+}
+
+.h3ThirdLight{
+    font-size: 0.5rem;
+    line-height: 0.6666666666666667rem;
+    letter-spacing: 1%;
+    font-weight: lighter;
+}
+
+.h3ThirdBold{
+    font-size: 0.5rem;
+    line-height: 0.6666666666666667rem;
+    letter-spacing: 1%;
+    font-weight: bold;
+}
+
+.titleForm{
+    font-size: 0.6666666666666667rem;
+    line-height: 0.5714285714285714rem;
+    font-weight: 500;
+}
+
+.placeHolder{
+    font-size: 0.6666666666666667rem;
+    line-height: 0.5714285714285714rem;
+    font-weight: lighter;
+}

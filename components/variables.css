@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+:root{
+    /* COLORS */
+    --buttonAndTextG: #22CD9B;
+    --iconsG: #1ABF8F;
+    --bgG: #22CD9B;
+    --textButtonG: #005039;
+
+    --bgBlackB: #262626;
+    --bgOpacityB: #000000;
+    --bgTranspB:  #1A1A1A;
+    --textStrongB: #000000;
+    --textMediumB: #262626;
+    --textFaintB: #333333;
+
+    --grayFooterB: #404040;
+
+    --bgAndTextW: #FFFFFF;
+
+    /* SPACINGS */
+    --paddingSections: 0.1rem;
+    --paddingBox: 0.3333333333333333rem;
+    --spaceQuests: 0.2rem;
+}
