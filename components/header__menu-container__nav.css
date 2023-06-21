@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.header__menu-container{
+    display: grid;
+    grid-template-columns: 160px 1fr 1fr 160px;
+    align-items: center;
+}
+
+.header__menu-container__nav{
+    justify-self: end;
+    grid-column: 3/4;
+}
+
+.header__menu-container__logo{
+    justify-self: start;
+    grid-column: 2/3;
+}
+
+.header__menu-container__nav__ul{
+    display: flex;
+    gap: var(--spacing32);
+    padding: var(--spacing80) 0;
+}
+
+.header__menu-container__logo{
+    padding: var(--spacing60) 0;
+}

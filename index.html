@@ -6,35 +6,172 @@
     <link rel="stylesheet" href="components/reset.css">
     <link rel="stylesheet" href="components/title.css">
     <link rel="stylesheet" href="components/variables.css">
+    <link rel="stylesheet" href="components/header__menu-container__nav.css">
     <title>Escritório de Contabilidade</title>
 </head>
 <body>
     
-    <header>
-        <div>
-            <div>
-                logo
+    <header class="header">
+        <div class="header__menu-container">
+            <div class="header__menu-container__logo">
+                <a href="#"><img src="" alt="Logo"></a>
             </div>
 
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Serviços</li>
-                    <li>Clientes</li>
-                    <li>FAQ</li>
-                    <li>Contato</li>
+            <nav class="header__menu-container__nav">
+                <ul class="header__menu-container__nav__ul">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Clientes</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contato</a></li>
                 </ul>
             </nav>
         </div>
 
-        <h2>Bem-vindo ao</h2>
+        <h2 class="">Bem-vindo ao</h2>
         <h1>Escritório de Contabilidade</h1>
         <h3>Oferecemos eficiência e agilidade!</h3>
     </header>
 
-    <section>
-        modal do explore aqui
-    </section>
+    <main class="main">
+        <article class="main__article">
+            <div class="main__article__div-col1">
+                <h3>Você está procurando um</h3>
+                <h3>Consultor de planos de negócios?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent maximus porta risus. Morbi eu euismod enim. Aenean vitae tortor ac tortor consectetur luctus ac vel quam.</p>
+            </div>
+
+            <div class="main__article__div-col2">
+                <h3>Explore nossos serviços!</h3>
+                <button>EXPLORE AQUI</button>
+            </div>
+        </article>
+
+        <section class="main__section">
+            <div class="main__section__section-container">
+                <div class="main__section__section-container_card">
+                    <img src="" alt="">
+                    <h3>Área Contábil</h3>
+                    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
+                    <button>SAIBA MAIS</button>
+                </div>
+                <div class="main__section__section-container_card">
+                    <img src="" alt="">
+                    <h3>Saúde financeira</h3>
+                    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
+                    <button>SAIBA MAIS</button>
+                </div>
+                <div class="main__section__section-container_card">
+                    <img src="" alt="">
+                    <h3>Investimentos</h3>
+                    <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
+                    <button>SAIBA MAIS</button>
+                </div>
+            </div>
+            <div class="main__section__section-container__cities">
+                <img src="" alt="">
+                <span>+</span>
+                <span>60</span>
+                <h2>cidades <strong>atendidas</strong></h2>
+            </div>
+        </section>
+        <section class="main__section">
+            <div class="main__section__div-titles">
+                <h2>Tenha uma parceria de sucesso!</h2>
+                <h2>Conheça nossos clientes!</h2>
+            </div>
+            <div class="main__section__div-partners">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </section>
+        <section class="main__section">
+            <h1 class="main__section__title-faq">Perguntas frequentes</h1>
+            <dl class="main__section__dl-quests">
+                <dt>Quem nós somos?</dl>
+                <dd></dd>
+                <dt>Como entrar em contato?</dt>
+                <dd></dd>
+                <dt>Como trabalhamos?</dt>
+                <dd>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</dd>
+                <dt>Ondes nós estamos localizados?</dt>
+                <dd></dd>
+            </dl>
+        </section>
+        <section class="main__section">
+            <div class="main__ection__div-faq">
+                <h2>Alguma dúvida?</h2>
+                <h1>Fale conosco!</h1>
+                <h3>De segunda à sexta, das 8:00 às 18:00.</h3>
+            </div>
+            <div class="main__section__div-form">
+                <form method="post" action="contato.php" class="main__section__div-form__form">
+                    <div class="main__section__div-form__form__div-input">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="iname" placeholder="Digite seu nome">
+                    </div>
+                    <div>
+                        <label for="cel">Celular</label>
+                        <input type="tel" name="cel" id="icel" placeholder="(xx) xxxx-xxxx">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="iemail" placeholder="exampe@gmail.com.br">
+                    </div>
+                    <div>
+                        <label for="subject">Assunto</label>
+                        <input type="text" name="subject" id="isubject" placeholder="Digite o assunto do email">
+                    </div>
+                    <div>
+                        <label for="message">Mensagem</label>
+                        <input type="text" name="message" id="imessage" placeholder="Digite a sua mensagem">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__logo">
+            <img src="" alt="Logo">
+        </div>
+
+        <div class="footer__infos">
+            <h2>Localização</h2>
+
+            <div class="footer_infos__div">
+                <img src="" alt="Location">
+                <h3>Rua Francisco Leopoldo, n. 87, Santa Maria, Rio de Janeiro - RJ</h3>
+            </div>
+
+            <div class="footer_infos__div">
+                <img src="" alt="Tellphone">
+                <h3>(xx) xxxx-xxxx</h2>
+            </div>
+
+            <div class="footer_infos__div">
+                <img src="" alt="Email">
+                <h3>email@gmail.com.br</h3>
+            </div>
+        </div>
+
+        <div class="footer_socials">
+            <h2>Redes sociais</h2>
+            
+            <div class="footer_socials_icons">
+                <img src="" alt="Whatsapp">
+                <img src="" alt="Facebook">
+                <img src="" alt="Instagram">
+                <img src="" alt="Twitter">
+                <img src="" alt="LinkedIn">
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

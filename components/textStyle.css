@@ -3,43 +3,43 @@
 /* PARAGRAPHS AND TITLES */
 
 .paragraph{
-    font-size: 0.8888888888888889rem;
-    line-height: 0.6666666666666667rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
     letter-spacing: 1.5%;
 }
 
-.h1Primary{
-    font-size: 0.2857142857142857rem;
-    line-height: 0.3333333333333333rem;
+.titlePrimary{
+    font-size: 3.5rem;
+    line-height: 3rem;
 }
 
-.h2Secundary{
-    font-size: 0.3333333333333333rem;
-    line-height: 0.5rem;
+.titleSecundary{
+    font-size: 3rem;
+    line-height: 2rem;
 }
 
-.h3ThirdLight{
-    font-size: 0.5rem;
-    line-height: 0.6666666666666667rem;
+.titleThirdLight{
+    font-size: 2;
+    line-height: 1.5rem;
     letter-spacing: 1%;
     font-weight: lighter;
 }
 
-.h3ThirdBold{
-    font-size: 0.5rem;
-    line-height: 0.6666666666666667rem;
+.titleThirdBold{
+    font-size: 2rem;
+    line-height: 1.5rem;
     letter-spacing: 1%;
     font-weight: bold;
 }
 
 .titleForm{
-    font-size: 0.6666666666666667rem;
-    line-height: 0.5714285714285714rem;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     font-weight: 500;
 }
 
-.placeHolder{
-    font-size: 0.6666666666666667rem;
-    line-height: 0.5714285714285714rem;
+.textPlaceHolder{
+    font-size: 1.5rem;
+    line-height: 1.75rem;
     font-weight: lighter;
 }
