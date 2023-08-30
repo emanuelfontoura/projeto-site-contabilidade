@@ -14,3 +14,10 @@ a{
     text-decoration: none;
     color: var(--bgAndTextW);
 }
+
+button{
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
