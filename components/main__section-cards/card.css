@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.main__section__card-container{
+    text-align: center;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.main__section__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem 0.5rem;
+    background-color: #FFFFFF;
+    box-shadow: -8px 8px 30px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.main__section__card img,
+.main__section__card h3{
+    margin-bottom: 1rem;
+}
+
+.main__section__card p{
+    margin-bottom: 1.3rem;
+}
+
+.main__section__card h3{
+    font-size: 1.5rem;
+}
+
+.main__section__card p{
+    font-size: 0.9rem;
+    max-width: 240px;
+}
+
+.main__section__card button{
+    font-size: 1rem;
+    line-height: 0.5rem;
+    padding: 1rem 1.5rem;
+    min-width: 150px;
+    max-width: 200px;
+}

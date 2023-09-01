@@ -3,10 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GLOBAIS -->
     <link rel="stylesheet" href="components/reset.css">
     <link rel="stylesheet" href="components/button.css">
-    <link rel="stylesheet" href="components/header/header.css">
     <link rel="stylesheet" href="components/global.css">
+    <!-- HEADER -->
+    <link rel="stylesheet" href="components/header/header.css">
+    <!-- MAIN -->
+    <link rel="stylesheet" href="components/main__section.css">
+    <link rel="stylesheet" href="components/main__section-cards/card.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,37 +23,37 @@
     <header class="header">
         <a href="#" class="header__logo"><img src="#" alt="">Logo</a>
 
-        <div class="header__text">
-            <div class="header__text-left">
-                <h3 class="">Bem-vindo a</h2>
-                <h1>Trogon</h1>
-                <h3 class="header__text-left-top">consultoria contábil</h3>
-            </div>
-            <div class="header__text-right">
-                <h3>Oferecemos eficiência e agilidade!</h3>
-                <button class="header__button">Entre em contato</button>
-            </div>
+        <div class="header__text-top">
+            <h3 class="">Bem-vindo a</h2>
+            <h1>Trogon</h1>
+            <h3 class="header__text-top-padtop">consultoria contábil</h3>
         </div>
+
+        <div class="header__text-bottom">
+            <h3>Oferecemos eficiência e agilidade!</h3>
+        </div>
+        
+        <button class="header__button">Entre em contato</button>
     </header>
 
     <main class="main">
 
         <section class="main__section">
-            <div class="main__section__section-container">
-                <div class="main__section__section-container_card">
-                    <img src="" alt="">
+            <div class="main__section__card-container">
+                <div class="main__section__card">
+                    <img src="icons/bankIcon.svg" alt="Bank Icon">
                     <h3>Área Contábil</h3>
                     <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
                     <button>SAIBA MAIS</button>
                 </div>
-                <div class="main__section__section-container_card">
-                    <img src="" alt="">
+                <div class="main__section__card">
+                    <img src="icons/savingIcon.svg" alt="Saving Icon">
                     <h3>Saúde financeira</h3>
                     <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
                     <button>SAIBA MAIS</button>
                 </div>
-                <div class="main__section__section-container_card">
-                    <img src="" alt="">
+                <div class="main__section__card">
+                    <img src="icons/paymentsIcon.svg" alt="Payments Icon">
                     <h3>Investimentos</h3>
                     <p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor.</p>
                     <button>SAIBA MAIS</button>
@@ -77,6 +82,7 @@
                 <img src="" alt="">
             </div>
         </section>
+
         <section class="main__section">
             <h1 class="main__section__title-faq">Perguntas frequentes</h1>
             <dl class="main__section__dl-quests">
@@ -90,11 +96,13 @@
                 <dd></dd>
             </dl>
         </section>
+
         <section class="main__section">
             <div class="main__ection__div-faq">
                 <h2>Alguma dúvida?</h2>
                 <h1>Fale conosco!</h1>
             </div>
+
             <div class="main__section__div-form">
                 <form method="post" action="contato.php" class="main__section__div-form__form">
                     <div class="main__section__div-form__form__div-input">
